@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7750E145E6A54D6B80AA59E1 /* Pods_Social_Distance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189DDC55AAA63D7DB22D8770 /* Pods_Social_Distance.framework */; };
+		A07D303B245919760071CC9A /* ShadowButtonPurpleCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D303A245919760071CC9A /* ShadowButtonPurpleCircle.swift */; };
+		A07D303D24591A910071CC9A /* TutorialFullVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D303C24591A910071CC9A /* TutorialFullVC.swift */; };
+		A07D303F24591AE50071CC9A /* TutuorialImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D303E24591AE50071CC9A /* TutuorialImageVC.swift */; };
+		A07D3046245A12F60071CC9A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07D3044245A12F60071CC9A /* Interface.storyboard */; };
+		A07D3048245A12F80071CC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07D3047245A12F80071CC9A /* Assets.xcassets */; };
+		A07D304F245A12F80071CC9A /* DISTANCE Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A07D304E245A12F80071CC9A /* DISTANCE Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A07D3054245A12F80071CC9A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D3053245A12F80071CC9A /* InterfaceController.swift */; };
+		A07D3056245A12F80071CC9A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D3055245A12F80071CC9A /* ExtensionDelegate.swift */; };
+		A07D3058245A12F80071CC9A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D3057245A12F80071CC9A /* NotificationController.swift */; };
+		A07D305A245A12F80071CC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07D3059245A12F80071CC9A /* Assets.xcassets */; };
+		A07D3069245BAEFB0071CC9A /* ShadowCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D3068245BAEFB0071CC9A /* ShadowCircle.swift */; };
+		A0C5BE4024566B9A00AFED7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE3F24566B9A00AFED7B /* AppDelegate.swift */; };
+		A0C5BE4224566B9A00AFED7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE4124566B9A00AFED7B /* SceneDelegate.swift */; };
+		A0C5BE4424566B9A00AFED7B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE4324566B9A00AFED7B /* FirstViewController.swift */; };
+		A0C5BE4624566B9A00AFED7B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE4524566B9A00AFED7B /* SecondViewController.swift */; };
+		A0C5BE4924566B9A00AFED7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C5BE4724566B9A00AFED7B /* Main.storyboard */; };
+		A0C5BE4B24566B9B00AFED7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C5BE4A24566B9B00AFED7B /* Assets.xcassets */; };
+		A0C5BE4E24566B9B00AFED7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0C5BE4C24566B9B00AFED7B /* LaunchScreen.storyboard */; };
+		A0C5BE562456706F00AFED7B /* NavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE552456706F00AFED7B /* NavVC.swift */; };
+		A0C5BE582456709F00AFED7B /* customBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE572456709F00AFED7B /* customBar.swift */; };
+		A0C5BE5A245670B300AFED7B /* customBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE59245670B300AFED7B /* customBar2.swift */; };
+		A0C5BE5C2456747400AFED7B /* ShadowBoxWhiteScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE5B2456747400AFED7B /* ShadowBoxWhiteScroll.swift */; };
+		A0C5BE5E2456749500AFED7B /* ShadowButtonWhite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE5D2456749500AFED7B /* ShadowButtonWhite.swift */; };
+		A0C5BE60245674C700AFED7B /* ShadowButtonPurple.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE5F245674C700AFED7B /* ShadowButtonPurple.swift */; };
+		A0C5BE622456758000AFED7B /* circleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE612456758000AFED7B /* circleImage.swift */; };
+		A0C5BE642456775600AFED7B /* closeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE632456775600AFED7B /* closeCell.swift */; };
+		A0C5BE6624567AB000AFED7B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0C5BE6524567AB000AFED7B /* GoogleService-Info.plist */; };
+		A0C5BE6824567C1200AFED7B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE6724567C1200AFED7B /* SignInVC.swift */; };
+		A0C5BE6A2456926F00AFED7B /* human.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE692456926F00AFED7B /* human.swift */; };
+		A0C5BE6C24574EAE00AFED7B /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE6B24574EAE00AFED7B /* SettingsVC.swift */; };
+		A0C5BE7124578AFE00AFED7B /* shareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE7024578AFE00AFED7B /* shareCell.swift */; };
+		A0C5BE732457A24B00AFED7B /* InvitePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE722457A24B00AFED7B /* InvitePresenter.swift */; };
+		A0C5BE752457BC6F00AFED7B /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE742457BC6F00AFED7B /* PushNotificationManager.swift */; };
+		A0C5BE772457BC9F00AFED7B /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE762457BC9F00AFED7B /* PushNotificationSender.swift */; };
+		A0C5BE7B2457D30C00AFED7B /* TermsOfServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C5BE7A2457D30C00AFED7B /* TermsOfServiceVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A07D3050245A12F80071CC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0C5BE3424566B9A00AFED7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A07D304D245A12F80071CC9A;
+			remoteInfo = "DISTANCE Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A07D3063245A12F90071CC9A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A07D304F245A12F80071CC9A /* DISTANCE Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		189DDC55AAA63D7DB22D8770 /* Pods_Social_Distance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Distance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24666C7AF0709659BADE1371 /* Pods-Social Distance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Distance.release.xcconfig"; path = "Target Support Files/Pods-Social Distance/Pods-Social Distance.release.xcconfig"; sourceTree = "<group>"; };
+		A07D303A245919760071CC9A /* ShadowButtonPurpleCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButtonPurpleCircle.swift; sourceTree = "<group>"; };
+		A07D303C24591A910071CC9A /* TutorialFullVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialFullVC.swift; sourceTree = "<group>"; };
+		A07D303E24591AE50071CC9A /* TutuorialImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutuorialImageVC.swift; sourceTree = "<group>"; };
+		A07D3042245A12F60071CC9A /* DISTANCE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DISTANCE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07D3045245A12F60071CC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A07D3047245A12F80071CC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A07D3049245A12F80071CC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07D304E245A12F80071CC9A /* DISTANCE Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DISTANCE Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07D3053245A12F80071CC9A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A07D3055245A12F80071CC9A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A07D3057245A12F80071CC9A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A07D3059245A12F80071CC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A07D305B245A12F80071CC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07D305C245A12F80071CC9A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A07D3068245BAEFB0071CC9A /* ShadowCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowCircle.swift; sourceTree = "<group>"; };
+		A0C5BE3C24566B9A00AFED7B /* Distance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Distance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C5BE3F24566B9A00AFED7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		A0C5BE4124566B9A00AFED7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0C5BE4324566B9A00AFED7B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		A0C5BE4524566B9A00AFED7B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A0C5BE4824566B9A00AFED7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0C5BE4A24566B9B00AFED7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0C5BE4D24566B9B00AFED7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0C5BE4F24566B9B00AFED7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0C5BE552456706F00AFED7B /* NavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavVC.swift; sourceTree = "<group>"; };
+		A0C5BE572456709F00AFED7B /* customBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customBar.swift; sourceTree = "<group>"; };
+		A0C5BE59245670B300AFED7B /* customBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customBar2.swift; sourceTree = "<group>"; };
+		A0C5BE5B2456747400AFED7B /* ShadowBoxWhiteScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowBoxWhiteScroll.swift; sourceTree = "<group>"; };
+		A0C5BE5D2456749500AFED7B /* ShadowButtonWhite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButtonWhite.swift; sourceTree = "<group>"; };
+		A0C5BE5F245674C700AFED7B /* ShadowButtonPurple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButtonPurple.swift; sourceTree = "<group>"; };
+		A0C5BE612456758000AFED7B /* circleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleImage.swift; sourceTree = "<group>"; };
+		A0C5BE632456775600AFED7B /* closeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = closeCell.swift; sourceTree = "<group>"; };
+		A0C5BE6524567AB000AFED7B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0C5BE6724567C1200AFED7B /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		A0C5BE692456926F00AFED7B /* human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = human.swift; sourceTree = "<group>"; };
+		A0C5BE6B24574EAE00AFED7B /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		A0C5BE6D245768FF00AFED7B /* Social Distance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Social Distance.entitlements"; sourceTree = "<group>"; };
+		A0C5BE7024578AFE00AFED7B /* shareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shareCell.swift; sourceTree = "<group>"; };
+		A0C5BE722457A24B00AFED7B /* InvitePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitePresenter.swift; sourceTree = "<group>"; };
+		A0C5BE742457BC6F00AFED7B /* PushNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		A0C5BE762457BC9F00AFED7B /* PushNotificationSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		A0C5BE7A2457D30C00AFED7B /* TermsOfServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceVC.swift; sourceTree = "<group>"; };
+		A65A44DD3C6C4B489F5D9631 /* Pods-Social Distance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Distance.debug.xcconfig"; path = "Target Support Files/Pods-Social Distance/Pods-Social Distance.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A07D304B245A12F80071CC9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C5BE3924566B9A00AFED7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7750E145E6A54D6B80AA59E1 /* Pods_Social_Distance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		305301D9ED1D908C5F607C27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A65A44DD3C6C4B489F5D9631 /* Pods-Social Distance.debug.xcconfig */,
+				24666C7AF0709659BADE1371 /* Pods-Social Distance.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A07D3043245A12F60071CC9A /* DISTANCE */ = {
+			isa = PBXGroup;
+			children = (
+				A07D3044245A12F60071CC9A /* Interface.storyboard */,
+				A07D3047245A12F80071CC9A /* Assets.xcassets */,
+				A07D3049245A12F80071CC9A /* Info.plist */,
+			);
+			path = DISTANCE;
+			sourceTree = "<group>";
+		};
+		A07D3052245A12F80071CC9A /* DISTANCE Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A07D3053245A12F80071CC9A /* InterfaceController.swift */,
+				A07D3055245A12F80071CC9A /* ExtensionDelegate.swift */,
+				A07D3057245A12F80071CC9A /* NotificationController.swift */,
+				A07D3059245A12F80071CC9A /* Assets.xcassets */,
+				A07D305B245A12F80071CC9A /* Info.plist */,
+				A07D305C245A12F80071CC9A /* PushNotificationPayload.apns */,
+			);
+			path = "DISTANCE Extension";
+			sourceTree = "<group>";
+		};
+		A0C5BE3324566B9A00AFED7B = {
+			isa = PBXGroup;
+			children = (
+				A0C5BE3E24566B9A00AFED7B /* Social Distance */,
+				A07D3043245A12F60071CC9A /* DISTANCE */,
+				A07D3052245A12F80071CC9A /* DISTANCE Extension */,
+				A0C5BE3D24566B9A00AFED7B /* Products */,
+				305301D9ED1D908C5F607C27 /* Pods */,
+				CD9325CA60C74DCE3A5B848E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C5BE3D24566B9A00AFED7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5BE3C24566B9A00AFED7B /* Distance.app */,
+				A07D3042245A12F60071CC9A /* DISTANCE.app */,
+				A07D304E245A12F80071CC9A /* DISTANCE Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C5BE3E24566B9A00AFED7B /* Social Distance */ = {
+			isa = PBXGroup;
+			children = (
+				A0C5BE6D245768FF00AFED7B /* Social Distance.entitlements */,
+				A0C5BE3F24566B9A00AFED7B /* AppDelegate.swift */,
+				A0C5BE4124566B9A00AFED7B /* SceneDelegate.swift */,
+				A0C5BE4324566B9A00AFED7B /* FirstViewController.swift */,
+				A0C5BE4524566B9A00AFED7B /* SecondViewController.swift */,
+				A0C5BE722457A24B00AFED7B /* InvitePresenter.swift */,
+				A0C5BE6B24574EAE00AFED7B /* SettingsVC.swift */,
+				A0C5BE7A2457D30C00AFED7B /* TermsOfServiceVC.swift */,
+				A0C5BE692456926F00AFED7B /* human.swift */,
+				A0C5BE6724567C1200AFED7B /* SignInVC.swift */,
+				A0C5BE632456775600AFED7B /* closeCell.swift */,
+				A0C5BE7024578AFE00AFED7B /* shareCell.swift */,
+				A07D303C24591A910071CC9A /* TutorialFullVC.swift */,
+				A07D303E24591AE50071CC9A /* TutuorialImageVC.swift */,
+				A0C5BE5B2456747400AFED7B /* ShadowBoxWhiteScroll.swift */,
+				A0C5BE5D2456749500AFED7B /* ShadowButtonWhite.swift */,
+				A0C5BE5F245674C700AFED7B /* ShadowButtonPurple.swift */,
+				A07D3068245BAEFB0071CC9A /* ShadowCircle.swift */,
+				A07D303A245919760071CC9A /* ShadowButtonPurpleCircle.swift */,
+				A0C5BE612456758000AFED7B /* circleImage.swift */,
+				A0C5BE552456706F00AFED7B /* NavVC.swift */,
+				A0C5BE572456709F00AFED7B /* customBar.swift */,
+				A0C5BE742457BC6F00AFED7B /* PushNotificationManager.swift */,
+				A0C5BE762457BC9F00AFED7B /* PushNotificationSender.swift */,
+				A0C5BE59245670B300AFED7B /* customBar2.swift */,
+				A0C5BE4724566B9A00AFED7B /* Main.storyboard */,
+				A0C5BE4A24566B9B00AFED7B /* Assets.xcassets */,
+				A0C5BE4C24566B9B00AFED7B /* LaunchScreen.storyboard */,
+				A0C5BE4F24566B9B00AFED7B /* Info.plist */,
+				A0C5BE6524567AB000AFED7B /* GoogleService-Info.plist */,
+			);
+			path = "Social Distance";
+			sourceTree = "<group>";
+		};
+		CD9325CA60C74DCE3A5B848E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				189DDC55AAA63D7DB22D8770 /* Pods_Social_Distance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A07D3041245A12F60071CC9A /* DISTANCE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07D3064245A12F90071CC9A /* Build configuration list for PBXNativeTarget "DISTANCE" */;
+			buildPhases = (
+				A07D3040245A12F60071CC9A /* Resources */,
+				A07D3063245A12F90071CC9A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A07D3051245A12F80071CC9A /* PBXTargetDependency */,
+			);
+			name = DISTANCE;
+			productName = DISTANCE;
+			productReference = A07D3042245A12F60071CC9A /* DISTANCE.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A07D304D245A12F80071CC9A /* DISTANCE Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07D3060245A12F90071CC9A /* Build configuration list for PBXNativeTarget "DISTANCE Extension" */;
+			buildPhases = (
+				A07D304A245A12F80071CC9A /* Sources */,
+				A07D304B245A12F80071CC9A /* Frameworks */,
+				A07D304C245A12F80071CC9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DISTANCE Extension";
+			productName = "DISTANCE Extension";
+			productReference = A07D304E245A12F80071CC9A /* DISTANCE Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		A0C5BE3B24566B9A00AFED7B /* Social Distance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C5BE5224566B9B00AFED7B /* Build configuration list for PBXNativeTarget "Social Distance" */;
+			buildPhases = (
+				E3196C7029B9FFEF903D6351 /* [CP] Check Pods Manifest.lock */,
+				A0C5BE3824566B9A00AFED7B /* Sources */,
+				A0C5BE3924566B9A00AFED7B /* Frameworks */,
+				A0C5BE3A24566B9A00AFED7B /* Resources */,
+				DB3004DB6656307AD662B34D /* [CP] Embed Pods Frameworks */,
+				8ABE7BD8B33EEED2D24BC345 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Social Distance";
+			productName = "Social Distance";
+			productReference = A0C5BE3C24566B9A00AFED7B /* Distance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0C5BE3424566B9A00AFED7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "People. Love. Change.";
+				TargetAttributes = {
+					A07D3041245A12F60071CC9A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					A07D304D245A12F80071CC9A = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					A0C5BE3B24566B9A00AFED7B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A0C5BE3724566B9A00AFED7B /* Build configuration list for PBXProject "Social Distance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0C5BE3324566B9A00AFED7B;
+			productRefGroup = A0C5BE3D24566B9A00AFED7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C5BE3B24566B9A00AFED7B /* Social Distance */,
+				A07D3041245A12F60071CC9A /* DISTANCE */,
+				A07D304D245A12F80071CC9A /* DISTANCE Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A07D3040245A12F60071CC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07D3048245A12F80071CC9A /* Assets.xcassets in Resources */,
+				A07D3046245A12F60071CC9A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07D304C245A12F80071CC9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07D305A245A12F80071CC9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C5BE3A24566B9A00AFED7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C5BE4E24566B9B00AFED7B /* LaunchScreen.storyboard in Resources */,
+				A0C5BE6624567AB000AFED7B /* GoogleService-Info.plist in Resources */,
+				A0C5BE4B24566B9B00AFED7B /* Assets.xcassets in Resources */,
+				A0C5BE4924566B9A00AFED7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8ABE7BD8B33EEED2D24BC345 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Social Distance/Pods-Social Distance-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Social Distance/Pods-Social Distance-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Social Distance/Pods-Social Distance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB3004DB6656307AD662B34D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Social Distance/Pods-Social Distance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Social Distance/Pods-Social Distance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Social Distance/Pods-Social Distance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3196C7029B9FFEF903D6351 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Social Distance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A07D304A245A12F80071CC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07D3058245A12F80071CC9A /* NotificationController.swift in Sources */,
+				A07D3056245A12F80071CC9A /* ExtensionDelegate.swift in Sources */,
+				A07D3054245A12F80071CC9A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C5BE3824566B9A00AFED7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07D303B245919760071CC9A /* ShadowButtonPurpleCircle.swift in Sources */,
+				A0C5BE582456709F00AFED7B /* customBar.swift in Sources */,
+				A0C5BE5A245670B300AFED7B /* customBar2.swift in Sources */,
+				A07D303D24591A910071CC9A /* TutorialFullVC.swift in Sources */,
+				A0C5BE4624566B9A00AFED7B /* SecondViewController.swift in Sources */,
+				A07D3069245BAEFB0071CC9A /* ShadowCircle.swift in Sources */,
+				A0C5BE60245674C700AFED7B /* ShadowButtonPurple.swift in Sources */,
+				A0C5BE642456775600AFED7B /* closeCell.swift in Sources */,
+				A0C5BE772457BC9F00AFED7B /* PushNotificationSender.swift in Sources */,
+				A0C5BE6824567C1200AFED7B /* SignInVC.swift in Sources */,
+				A0C5BE752457BC6F00AFED7B /* PushNotificationManager.swift in Sources */,
+				A0C5BE562456706F00AFED7B /* NavVC.swift in Sources */,
+				A0C5BE5C2456747400AFED7B /* ShadowBoxWhiteScroll.swift in Sources */,
+				A0C5BE4424566B9A00AFED7B /* FirstViewController.swift in Sources */,
+				A0C5BE622456758000AFED7B /* circleImage.swift in Sources */,
+				A0C5BE4024566B9A00AFED7B /* AppDelegate.swift in Sources */,
+				A0C5BE4224566B9A00AFED7B /* SceneDelegate.swift in Sources */,
+				A0C5BE5E2456749500AFED7B /* ShadowButtonWhite.swift in Sources */,
+				A0C5BE732457A24B00AFED7B /* InvitePresenter.swift in Sources */,
+				A0C5BE7124578AFE00AFED7B /* shareCell.swift in Sources */,
+				A0C5BE6A2456926F00AFED7B /* human.swift in Sources */,
+				A07D303F24591AE50071CC9A /* TutuorialImageVC.swift in Sources */,
+				A0C5BE6C24574EAE00AFED7B /* SettingsVC.swift in Sources */,
+				A0C5BE7B2457D30C00AFED7B /* TermsOfServiceVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A07D3051245A12F80071CC9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A07D304D245A12F80071CC9A /* DISTANCE Extension */;
+			targetProxy = A07D3050245A12F80071CC9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A07D3044245A12F60071CC9A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A07D3045245A12F60071CC9A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C5BE4724566B9A00AFED7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C5BE4824566B9A00AFED7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0C5BE4C24566B9B00AFED7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C5BE4D24566B9B00AFED7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A07D3061245A12F90071CC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99P8V3CP7F;
+				INFOPLIST_FILE = "DISTANCE Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PLC.Social-Distance.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		A07D3062245A12F90071CC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99P8V3CP7F;
+				INFOPLIST_FILE = "DISTANCE Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PLC.Social-Distance.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		A07D3065245A12F90071CC9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99P8V3CP7F;
+				IBSC_MODULE = DISTANCE_Extension;
+				INFOPLIST_FILE = DISTANCE/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PLC.Social-Distance.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		A07D3066245A12F90071CC9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99P8V3CP7F;
+				IBSC_MODULE = DISTANCE_Extension;
+				INFOPLIST_FILE = DISTANCE/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PLC.Social-Distance.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		A0C5BE5024566B9B00AFED7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0C5BE5124566B9B00AFED7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0C5BE5324566B9B00AFED7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65A44DD3C6C4B489F5D9631 /* Pods-Social Distance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Social Distance/Social Distance.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 99P8V3CP7F;
+				INFOPLIST_FILE = "Social Distance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PLC.Social-Distance";
+				PRODUCT_NAME = Distance;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A0C5BE5424566B9B00AFED7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24666C7AF0709659BADE1371 /* Pods-Social Distance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Social Distance/Social Distance.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 99P8V3CP7F;
+				INFOPLIST_FILE = "Social Distance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PLC.Social-Distance";
+				PRODUCT_NAME = Distance;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A07D3060245A12F90071CC9A /* Build configuration list for PBXNativeTarget "DISTANCE Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07D3061245A12F90071CC9A /* Debug */,
+				A07D3062245A12F90071CC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07D3064245A12F90071CC9A /* Build configuration list for PBXNativeTarget "DISTANCE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A07D3065245A12F90071CC9A /* Debug */,
+				A07D3066245A12F90071CC9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C5BE3724566B9A00AFED7B /* Build configuration list for PBXProject "Social Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C5BE5024566B9B00AFED7B /* Debug */,
+				A0C5BE5124566B9B00AFED7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C5BE5224566B9B00AFED7B /* Build configuration list for PBXNativeTarget "Social Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C5BE5324566B9B00AFED7B /* Debug */,
+				A0C5BE5424566B9B00AFED7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0C5BE3424566B9A00AFED7B /* Project object */;
+}

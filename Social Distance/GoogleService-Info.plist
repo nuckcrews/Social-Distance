@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>572072498714-sa9ql4dcsl2rs6gl0u05ptt9s2tn2r4q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.572072498714-sa9ql4dcsl2rs6gl0u05ptt9s2tn2r4q</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB_s6HiJi15e_IixI3_YbhEfVlcksFgiw8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>572072498714</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.PLC.Social-Distance</string>
+	<key>PROJECT_ID</key>
+	<string>social-distance-75e4d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>social-distance-75e4d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:572072498714:ios:a53372fd44d74627b523a3</string>
+	<key>DATABASE_URL</key>
+	<string>https://social-distance-75e4d.firebaseio.com</string>
+</dict>
+</plist>
