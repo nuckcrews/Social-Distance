@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     static let NOTIFICATION_URL = "https://fcm.googleapis.com/fcm/send"
-    static let SERVERKEY = "AAAAhTItlho:APA91bHtrMdXn2Ueui90vCe3MFveGFoaY2c7XNnjVxpA4P7sAMQxTGyHtSMX1yNM328RSQWenzbPR0x3X6cpBhN52rVKbYJFmyEZ82WowMNxN11SJB3vxVlJS7e_HOVk617QhzdEw8NS"
+    static let SERVERKEY = FIR_SERVER_KEY
     static var DEVICEID = String()
     static var fcmTOKEN = String()
     let gcmMessageIDKey = "gcm.message_id"

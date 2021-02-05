@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7750E145E6A54D6B80AA59E1 /* Pods_Social_Distance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189DDC55AAA63D7DB22D8770 /* Pods_Social_Distance.framework */; };
+		A054E49025CDAEF700334EB2 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A054E48F25CDAEF700334EB2 /* Config.swift */; };
 		A07D303B245919760071CC9A /* ShadowButtonPurpleCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D303A245919760071CC9A /* ShadowButtonPurpleCircle.swift */; };
 		A07D303D24591A910071CC9A /* TutorialFullVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D303C24591A910071CC9A /* TutorialFullVC.swift */; };
 		A07D303F24591AE50071CC9A /* TutuorialImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07D303E24591AE50071CC9A /* TutuorialImageVC.swift */; };
@@ -72,6 +73,7 @@
 /* Begin PBXFileReference section */
 		189DDC55AAA63D7DB22D8770 /* Pods_Social_Distance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_Distance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24666C7AF0709659BADE1371 /* Pods-Social Distance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social Distance.release.xcconfig"; path = "Target Support Files/Pods-Social Distance/Pods-Social Distance.release.xcconfig"; sourceTree = "<group>"; };
+		A054E48F25CDAEF700334EB2 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		A07D303A245919760071CC9A /* ShadowButtonPurpleCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButtonPurpleCircle.swift; sourceTree = "<group>"; };
 		A07D303C24591A910071CC9A /* TutorialFullVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialFullVC.swift; sourceTree = "<group>"; };
 		A07D303E24591AE50071CC9A /* TutuorialImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutuorialImageVC.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			children = (
 				A0C5BE6D245768FF00AFED7B /* Social Distance.entitlements */,
 				A0C5BE3F24566B9A00AFED7B /* AppDelegate.swift */,
+				A054E48F25CDAEF700334EB2 /* Config.swift */,
 				A0C5BE4124566B9A00AFED7B /* SceneDelegate.swift */,
 				A0C5BE4324566B9A00AFED7B /* FirstViewController.swift */,
 				A0C5BE4524566B9A00AFED7B /* SecondViewController.swift */,
@@ -450,6 +453,7 @@
 				A0C5BE6824567C1200AFED7B /* SignInVC.swift in Sources */,
 				A0C5BE752457BC6F00AFED7B /* PushNotificationManager.swift in Sources */,
 				A0C5BE562456706F00AFED7B /* NavVC.swift in Sources */,
+				A054E49025CDAEF700334EB2 /* Config.swift in Sources */,
 				A0C5BE5C2456747400AFED7B /* ShadowBoxWhiteScroll.swift in Sources */,
 				A0C5BE4424566B9A00AFED7B /* FirstViewController.swift in Sources */,
 				A0C5BE622456758000AFED7B /* circleImage.swift in Sources */,
